@@ -9,7 +9,7 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 noBtn.addEventListener('touchstart', (event) => {
-    // Prevent default touch event behavior
+
     event.preventDefault();
     toggleTranslation();
 });
@@ -20,10 +20,10 @@ yesBtn.addEventListener('click', () => {
 
 function toggleTranslation() {
     if (value === 0) {
-        noBtn.style.transform = 'translateX(-130%)';
+        noBtn.style.transform = 'translateX(-100%)';
         value = 1;
     } else {
-        noBtn.style.transform = 'translateX(130%)';
+        noBtn.style.transform = 'translateX(100%)';
         value = 0;
     }
 }
