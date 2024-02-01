@@ -20,10 +20,10 @@ yesBtn.addEventListener('click', () => {
 
 function toggleTranslation() {
     if (value === 0) {
-        noBtn.style.transform = 'translateX(-100%)';
+        noBtn.style.transform = 'translateX(-70%)';
         value = 1;
     } else {
-        noBtn.style.transform = 'translateX(100%)';
+        noBtn.style.transform = 'translateX(70%)';
         value = 0;
     }
 }
